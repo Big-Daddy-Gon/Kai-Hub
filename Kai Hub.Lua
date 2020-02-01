@@ -8,7 +8,7 @@ local GameName = Games[game.PlaceId] or (function()
 end)()
 
 if GameName == "Blade Simulator" then
-    loadstring(game:HTTPGet(""))()
+    loadstring(game:HTTPGet("https://raw.githubusercontent.com/Big-Daddy-Gon/Kai-Hub/master/Blade%20Sim.Lua"))()
 elseif GameName == "Other Game" then
     loadstring(game:HTTPGet(""))()
 end
