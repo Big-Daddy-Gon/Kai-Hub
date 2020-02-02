@@ -7,7 +7,7 @@ spawn(function()
     end
 end)
 wait(0.1)
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/h4ckerg0d/Wally-Ui-Lib-V2/master/Wally%20Ui%20V2%20Main", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/h4ckerg0d/Wally-Ui-Lib-V2/master/Ui%20V2%20Main.Lua", true))()
 library.options.underlinecolor = "rainbow"
 local Main = library:CreateWindow("Main")
 --Library
